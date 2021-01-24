@@ -1,0 +1,37 @@
+#lines begin with "#" (leading and trailing blanks are trimmed at first) are annotations
+#characters after "#", where lines don't begin with "#", aren't treated as annotations
+#blank lines are removed
+#this is a long spaces (regular expression: " {5,}") delimited text file
+#there are 2 columns, source and destination of backup. each item must be quoted by "'"
+
+
+#source_without_prefix                                           destination_without_prefix
+'c/user_files/'                                                  'user_files'
+'c/Users/wangz/Documents/temp/'                                  'wechat_files'
+'c/Users/wangz/Documents/Tencent Files/304339275/FileRecv/'      'qq_files'
+'d/academy'                                                      'd/'
+'d/db of treatise'                                               'd/'
+'d/tempo'                                                        'd/'
+'d/work-nwipb'                                                   'd/'
+'d/ywd_ucas'                                                     'd/'
+'e/datum recovery'                                               'e/'
+'e/memorable'                                                    'e/'
+'e/pictures'                                                     'e/'
+'e/songs'                                                        'e/'
+'e/tj'                                                           'e/'
+'e/videos'                                                       'e/'
+
+
+#this is a workaround to ignore strange files in OneDrive
+#'c/Users/wangz/OneDrive/'                                       'OneDrive'
+'c/Users/wangz/OneDrive/201903_melanocentra'                     'OneDrive/'
+'c/Users/wangz/OneDrive/201909_atrata'                           'OneDrive/'
+'c/Users/wangz/OneDrive/202012_thesis (dissertation)'            'OneDrive/'
+'c/Users/wangz/OneDrive/article references'                      'OneDrive/'
+'c/Users/wangz/OneDrive/Documents'                               'OneDrive/'
+'c/Users/wangz/OneDrive/Downloads'                               'OneDrive/'
+'c/Users/wangz/OneDrive/miscellaneous scripts'                   'OneDrive/'
+'c/Users/wangz/OneDrive/Pictures'                                'OneDrive/'
+'c/Users/wangz/OneDrive/Public'                                  'OneDrive/'
+'c/Users/wangz/OneDrive/RBioinfoZm'                              'OneDrive/'
+
