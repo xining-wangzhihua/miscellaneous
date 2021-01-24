@@ -1,3 +1,1 @@
-r-miscellaneous
-
-these are miscellaneous r scripts
+These are miscellaneous scripts.
