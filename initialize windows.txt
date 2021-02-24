@@ -1,0 +1,55 @@
+
+login microsoft account, synchronize windows settings, onedrive, etc
+activate windows, update windows, ensure graphic driver works well
+delete useless softwares (or applications) such as games
+adjust start-up meau, start-up quick-access, taskbar quick-access, custem while icon hide or show at rear taskbar
+set location and amount of recycle bin in each disk partition
+set location and amount of virtual memory in each disk partition
+set auto dim out and sleep time for screen
+custom desktop and lock screen background pictures
+show file extensions, hidden files, hidden system files in file explorer
+custom timezone, default language
+synchronize settings with microsoft account
+
+add the following directory location to favourites:
+c:/program files
+c:/program files (x86)
+c:/users/sigmund/appdata/local/temp
+c:/users/sigmund/documents/tencent files/filerecov
+c:/users/sigmund/documents/wechat files/filestorage
+c:/windows/system32/drivers/etc
+c:/programdata/mysql/mysql server 8.0/uploads#or other locations like this
+d:/app
+
+install the following common softwares:
+7zip
+caj-viewer (cnki)
+firefox
+foxit pdf reader
+GIMP
+ImageMagick
+libre office (for testing behaviour of various documents)
+microsoft office
+norton security
+notepad++
+qq
+wechat
+
+install the following programming softwares:
+emacs
+r, rstudio, rtools
+llvm
+portable-sumatra pdf
+ruby
+mysql
+java runtime environment
+
+install the following phylogeny softwares:
+arlequin
+chromas
+dnasp
+mafft-windows
+mega
+supermap (or cracked arcgis)
+
+adjust environment variables for cmd

@@ -1,0 +1,56 @@
+recommended linux os: openSUSE, fedora
+
+check kernel version "uname -a???"
+hostname --boot harddisk.institution
+add "user1" and "guest1" users
+schedule tasks: update packages (dnf-automatic or cron), remove obsolete kernels (dnf-automatic or cron), backup (cron)
+#modify and make a demo ~/.bashrc or ~/.bash_profile (if not using zsh), backup the demo, and copy to each user:
+comment the line if any alias ls="ls --color=auto"; alias la="ls --color=auto --format=long --group-directories-first --almost-all";
+mkdir /opt/bin /home/*/bin /home/*/.local/bin; "add them to $PATH"
+systemctl enable sshd.service; "modify /etc/ssh/sshd_config"
+set automatically clean cache (/tmp, /var/*.log, rubbish-bin, etc)
+
+
+#install the following softwares (if not installed), this list may change at gradually:
+# install a network manager portal at localhost:9090
+anaconda
+beep
+cron? cronie?
+curl
+emacs
+FastQc
+gcc
+gdal
+git
+info
+libxml2
+make
+nano
+openssh
+parallel
+proftpd (provides proftpd, ftpdctl), proftpd-utils (provides ftptop, ftpwho)
+proj
+R-core, R-devel, rstudio-desktop
+rsync
+SQLite
+sudo
+texinfo
+thunder bird (may need to be installed manually)
+tigervnc, tigervnc-server
+tree
+wget
+wireshark (may need to be installed manually)
+wps office (install manually)
+zsh
+
+
+#install the following softwares in anaconda:
+SOAPnuke
+bwa
+samtools
+NOVOplasty
+SPAdes
+blastr
+blastx
+GapCloser
+gdal & proj
