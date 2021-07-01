@@ -1,0 +1,24 @@
+#lines begin with "#" (leading and trailing blanks are trimmed at first) are annotations
+#characters after "#", where lines don't begin with "#", aren't treated as annotations
+#blank lines are removed
+#this is a long spaces (regular expression: " {5,}") delimited text file
+#there are 2 columns, source and destination of backup. each item must be quoted by "'"
+
+
+#source_without_prefix                                           destination_without_prefix
+'c/user_files/'                                                  'user_files'
+'c/Users/wangz/Documents/temp/'                                  'wechat_files'
+'c/Users/wangz/Documents/Tencent Files/304339275/FileRecv/'      'qq_files'
+'c/Users/wangz/OneDrive/'                                        'OneDrive'
+'d/db of courseware'                                             'd/'
+'d/db of plant pictures'                                         'd/'
+'d/db of treatise'                                               'd/'
+'d/nwipb'                                                        'd/'
+'d/tempo'                                                        'd/'
+'e/datum recovery'                                               'e/'
+'e/memorable'                                                    'e/'
+'e/pictures'                                                     'e/'
+'e/songs'                                                        'e/'
+'e/tj'                                                           'e/'
+'e/videos'                                                       'e/'
+
